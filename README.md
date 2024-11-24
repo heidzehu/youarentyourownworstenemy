@@ -1,1 +1,3 @@
 # youarentyourownworstenemy
+
+You’re originally an average student, not superb in any way but not bad, UNTIL one day you fail a physics test entirely. You don’t know what’s wrong and you recount the steps of your day. User’s objective is to walk the character through a few days of their life and make healthy lifestyle choices. The ultimate message is, Make choices that lead to positive decisions. Setbacks are a normal part of life, but the most important thing is how you respond. Be kind to yourself. If you're kind to yourself, life will be kind to you. If you treat yourself badly, you are your own worst enemy and life will not be kind to you. DON'T BE YOUR OWN WORST ENEMY.
