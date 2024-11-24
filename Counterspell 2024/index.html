@@ -1,0 +1,122 @@
+<h1> hello world </h1>
+<img src="You are(n't) your own enemy/assets/bedroom_background.jpeg">
+<button type=button onClick="getSnack()"> Get a snack </button>
+<button type=button onClick="sleep()"> Sleep </button>
+<button type=button onClick="nap()"> Nap </button>
+<button type=button onClick="draw()"> Draw </button>
+<button type=button onClick="doYoga()"> Do Yoga </button>
+<button type=button onClick="takeWalk()"> Take Walk </button>
+<button type=button onClick="workOut()"> Work Out </button>
+<button type=button onClick="pepTalk()"> Pep Talk </button>
+<button type=button onClick="scrutinize()"> Scrutinize </button>
+<button type=button onClick="socialMedia()"> Social Media </button>
+<div id="selfCare"></div>
+<div id="time"></div>
+<div id="knowledge"></div>
+<div id="social"></div>
+<div id="emotional"></div>
+<h2>Make choices that lead to positive decisions. Setbacks are a normal part of life, but the most important thing is how you respond.</h2>
+<h2>Be kind to yourself.</h2>
+<p>If you're kind to yourself, life will be kind to you. If you treat yourself badly, you are your own worst enemy and life will not be kind to you.</p>
+<h1>DON'T BE YOUR OWN WORST ENEMY.</h1>
+
+<script>
+    let time = 0;
+    let selfCare = 50;
+    let knowledge = 50;
+    let social = 50;
+    let emotional = 50;
+    function getSnack() {
+        selfCare += 5;
+        time += .5;
+        document.querySelector("#time").innerHTML="Time: "+time;
+        document.querySelector("#selfCare").innerHTML="Self Care: "+selfCare;
+        document.querySelector("#knowledge").innerHTML="Knowledge: "+knowledge;
+        document.querySelector("#social").innerHTML="Social: "+social;
+        document.querySelector("#emotional").innerHTML="Emotional: "+emotional;
+    }
+    function sleep() {
+        selfCare += 30;
+        time += 7;
+        document.querySelector("#time").innerHTML="Time: "+time;
+        document.querySelector("#selfCare").innerHTML="Self Care: "+selfCare;
+        document.querySelector("#knowledge").innerHTML="Knowledge: "+knowledge;
+        document.querySelector("#social").innerHTML="Social: "+social;
+        document.querySelector("#emotional").innerHTML="Emotional: "+emotional;    }
+    
+    function nap(){
+        selfCare +=10
+        time +=.5
+        document.querySelector("#time").innerHTML="Time: "+time;
+        document.querySelector("#selfCare").innerHTML="Self Care: "+selfCare;
+        document.querySelector("#knowledge").innerHTML="Knowledge: "+knowledge;
+        document.querySelector("#social").innerHTML="Social: "+social;
+        document.querySelector("#emotional").innerHTML="Emotional: "+emotional;    
+    }  
+    function draw(){
+        emotional+=5
+        time+=1
+        document.querySelector("#time").innerHTML="Time: "+time;
+        document.querySelector("#selfCare").innerHTML="Self Care: "+selfCare;
+        document.querySelector("#knowledge").innerHTML="Knowledge: "+knowledge;
+        document.querySelector("#social").innerHTML="Social: "+social;
+        document.querySelector("#emotional").innerHTML="Emotional: "+emotional;
+    }
+    function doYoga(){
+        emotional+=30
+        time+=.5
+        document.querySelector("#time").innerHTML="Time: "+time;
+        document.querySelector("#selfCare").innerHTML="Self Care: "+selfCare;
+        document.querySelector("#knowledge").innerHTML="Knowledge: "+knowledge;
+        document.querySelector("#social").innerHTML="Social: "+social;
+        document.querySelector("#emotional").innerHTML="Emotional: "+emotional;
+    }
+    function takeWalk(){
+        selfCare+=10
+        emotional+=5
+        time+=.5
+        document.querySelector("#time").innerHTML="Time: "+time;
+        document.querySelector("#selfCare").innerHTML="Self Care: "+selfCare;
+        document.querySelector("#knowledge").innerHTML="Knowledge: "+knowledge;
+        document.querySelector("#social").innerHTML="Social: "+social;
+        document.querySelector("#emotional").innerHTML="Emotional: "+emotional;
+    }
+    function workOut(){
+        selfCare+=5
+        time+=1
+        document.querySelector("#time").innerHTML="Time: "+time;
+        document.querySelector("#selfCare").innerHTML="Self Care: "+selfCare;
+        document.querySelector("#knowledge").innerHTML="Knowledge: "+knowledge;
+        document.querySelector("#social").innerHTML="Social: "+social;
+        document.querySelector("#emotional").innerHTML="Emotional: "+emotional;
+    }
+    function pepTalk(){
+        emotional+=20
+        time+=.5
+        document.querySelector("#time").innerHTML="Time: "+time;
+        document.querySelector("#selfCare").innerHTML="Self Care: "+selfCare;
+        document.querySelector("#knowledge").innerHTML="Knowledge: "+knowledge;
+        document.querySelector("#social").innerHTML="Social: "+social;
+        document.querySelector("#emotional").innerHTML="Emotional: "+emotional;
+    }
+    function scrutinize(){
+        emotional-=20
+        time+=.5
+        document.querySelector("#time").innerHTML="Time: "+time;
+        document.querySelector("#selfCare").innerHTML="Self Care: "+selfCare;
+        document.querySelector("#knowledge").innerHTML="Knowledge: "+knowledge;
+        document.querySelector("#social").innerHTML="Social: "+social;
+        document.querySelector("#emotional").innerHTML="Emotional: "+emotional;
+    }
+    function socialMedia(){
+        emotional-=20
+        knowledge+=5
+        social-=20
+        time+=1
+        document.querySelector("#time").innerHTML="Time: "+time;
+        document.querySelector("#selfCare").innerHTML="Self Care: "+selfCare;
+        document.querySelector("#knowledge").innerHTML="Knowledge: "+knowledge;
+        document.querySelector("#social").innerHTML="Social: "+social;
+        document.querySelector("#emotional").innerHTML="Emotional: "+emotional;
+    }
+</script>
